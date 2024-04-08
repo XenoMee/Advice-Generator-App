@@ -143,6 +143,10 @@ body {
     letter-spacing: 4.09px;
   }
 
+  .divider {
+    margin-bottom: 2.5rem;
+  }
+
   .btn {
     padding: 1.3rem;
   }
