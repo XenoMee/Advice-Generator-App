@@ -84,6 +84,11 @@ body {
   align-items: center;
 }
 
+::selection {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-900);
+}
+
 /* Typography */
 .advice-id {
   font-size: var(--fs-100);
