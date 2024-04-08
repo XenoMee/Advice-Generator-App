@@ -142,6 +142,10 @@ body {
     font-size: var(--fs-200);
     letter-spacing: 4.09px;
   }
+
+  .btn {
+    padding: 1.3rem;
+  }
 }
 
 /* Utility classes */
