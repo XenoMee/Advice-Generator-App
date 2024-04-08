@@ -132,6 +132,13 @@ body {
   fill: var(--clr-neutral-900);
 }
 
+@media (min-width: 540px) {
+  .advice-generator {
+    /* --content-spacing: 2.5rem 1.5rem; */
+    margin-inline: auto;
+  }
+}
+
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
   clip-path: inset(50%);
