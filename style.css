@@ -81,9 +81,9 @@ body {
 }
 
 /* Layout */
-/* .advice-generator {
+.advice-generator {
   background-color: var(--clr-neutral-600);
-} */
+}
 
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
