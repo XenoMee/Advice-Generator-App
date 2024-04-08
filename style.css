@@ -81,7 +81,7 @@ body {
   align-items: center;
 }
 
-/* Typography */
+/* Layout */
 
 
 /* Utility classes */
@@ -92,4 +92,9 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.grid-flow{
+  display: grid;
+  gap: 1rem;;
 }
