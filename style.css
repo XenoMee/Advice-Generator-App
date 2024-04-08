@@ -94,6 +94,17 @@ body {
   text-transform: uppercase;
 }
 
+.btn {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  border-radius: 50%;
+  border: none;
+  bottom: -1.5rem;
+  justify-self: center;
+}
+
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
   clip-path: inset(50%);
