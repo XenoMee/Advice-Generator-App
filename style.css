@@ -103,7 +103,7 @@ body {
   position: absolute;
   display: grid;
   place-items: center;
-  padding: 1rem;
+  padding: 1.1rem;
   border-radius: 50%;
   border: none;
   bottom: -1.5rem;
