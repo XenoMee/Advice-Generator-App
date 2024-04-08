@@ -134,7 +134,7 @@ body {
 
 @media (min-width: 540px) {
   .advice-generator {
-    /* --content-spacing: 2.5rem 1.5rem; */
+    --content-spacing: 2.5rem 1.5rem;
     margin-inline: auto;
   }
 }
