@@ -9,6 +9,12 @@
 
   /* Font Family */
   --ff-base: font-family: "Manrope", sans-serif;
+
+  /* Font Weight */
+  --fw-extrabold: 800;
+
+  /* Font size */
+  --fs-100: 1.5rem;
 }
 
 /*
