@@ -86,6 +86,7 @@ body {
   background-color: var(--clr-neutral-600);
   padding: var(--content-spacing);
   text-align: center;
+  position: relative;
 }
 
 /* Utility classes */
