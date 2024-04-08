@@ -68,7 +68,17 @@ h6 {
 General
 */
 body {
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-primary-200);
+  line-height: 1.5;
+  font-family: var(--ff-base);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-extrabold);
+
+
   min-height: 100svh;
+  display: grid;
+  align-items: center;
 }
 
 /* Utility classes */
