@@ -84,6 +84,14 @@ body {
   align-items: center;
 }
 
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
 ::selection {
   background-color: var(--clr-primary-400);
   color: var(--clr-neutral-900);
