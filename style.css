@@ -81,6 +81,9 @@ body {
   align-items: center;
 }
 
+/* Typography */
+
+
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
   clip-path: inset(50%);
