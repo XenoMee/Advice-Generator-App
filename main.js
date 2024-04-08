@@ -9,3 +9,5 @@ const getRandomAdvice = () => {
       adviceTextEl.textContent = data.slip.advice;
     });
 };
+
+getRandomAdvice();
