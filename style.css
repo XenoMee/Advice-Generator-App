@@ -95,6 +95,7 @@ body {
 /* Layout */
 .advice-generator {
   --content-spacing: 2rem 1rem;
+  max-width: 33.75rem;
   background-color: var(--clr-neutral-800);
   padding: var(--content-spacing);
   border-radius: 0.7rem;
