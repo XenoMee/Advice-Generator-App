@@ -3,4 +3,7 @@ const adviceTextEl = document.querySelector('#advice-text');
 
 fetch('https://api.adviceslip.com/advice')
   .then((res) => res.json())
-  .then((data) => console.log(data));
+  .then((data) => {
+    adviceNumberEl.textContent = data.slip.id;
+    adviceTextEl.textContent = data.slip.advice;
+  });
