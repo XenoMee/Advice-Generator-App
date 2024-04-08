@@ -8,7 +8,7 @@
   --clr-neutral-900: hsl(218, 23%, 16%);
 
   /* Font Family */
-  --ff-base: font-family: "Manrope", sans-serif;
+  --ff-base: 'Manrope', sans-serif;
 
   /* Font Weight */
   --fw-extrabold: 800;
@@ -75,14 +75,12 @@ body {
   font-size: var(--fs-100);
   font-weight: var(--fw-extrabold);
 
-
   min-height: 100svh;
   display: grid;
   align-items: center;
 }
 
 /* Layout */
-
 
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
@@ -94,7 +92,7 @@ body {
   width: 1px;
 }
 
-.grid-flow{
+.grid-flow {
   display: grid;
-  gap: 1rem;;
+  gap: 1rem;
 }
