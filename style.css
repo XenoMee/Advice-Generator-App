@@ -103,6 +103,7 @@ body {
   border: none;
   bottom: -1.5rem;
   justify-self: center;
+  cursor: pointer;
 }
 
 .generator-btn {
