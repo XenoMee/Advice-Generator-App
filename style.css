@@ -137,6 +137,11 @@ body {
     --content-spacing: 2.5rem 1.5rem;
     margin-inline: auto;
   }
+
+  .advice-id {
+    font-size: var(--fs-200);
+    letter-spacing: 4.09px;
+  }
 }
 
 /* Utility classes */
