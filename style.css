@@ -85,6 +85,7 @@ body {
   --content-spacing: 2.5rem 1.5rem;
   background-color: var(--clr-neutral-600);
   padding: var(--content-spacing);
+  text-align: center;
 }
 
 /* Utility classes */
