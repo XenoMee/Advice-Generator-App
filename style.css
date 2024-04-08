@@ -114,6 +114,10 @@ body {
   box-shadow: 0 0 1rem 2px var(--clr-primary-400);
 }
 
+.dice-icon {
+  fill: var(--clr-neutral-900);
+}
+
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
   clip-path: inset(50%);
