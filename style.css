@@ -105,6 +105,10 @@ body {
   justify-self: center;
 }
 
+.generator-btn {
+  background-color: var(--clr-primary-400);
+}
+
 /* Utility classes */
 .visually-hidden:not(:focus):not(:active):not(:focus-within) {
   clip-path: inset(50%);
