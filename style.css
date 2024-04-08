@@ -75,6 +75,7 @@ body {
   font-family: var(--ff-base);
   font-size: var(--fs-500);
   font-weight: var(--fw-extrabold);
+  padding-inline: 1rem;
 
   min-height: 100svh;
   display: grid;
