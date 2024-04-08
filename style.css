@@ -100,6 +100,11 @@ body {
   position: relative;
 }
 
+.divider {
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
 .btn {
   position: absolute;
   display: grid;
