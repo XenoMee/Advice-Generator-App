@@ -1,4 +1,4 @@
-import { updateTextContent, addAnimationClass } from './functions.js';
+import { updateTextContent } from './functions.js';
 
 export const adviceNumberEl = document.querySelector('#advice-number');
 export const adviceTextEl = document.querySelector('#advice-text');
@@ -8,7 +8,6 @@ const getRandomAdvice = () => {
   fetch('https://api.adviceslip.com/advice')
     .then((res) => res.json())
     .then((data) => {
-      addAnimationClass();
       updateTextContent(data.slip.id, data.slip.advice);
     });
 };
